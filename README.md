@@ -1,15 +1,28 @@
-# Blackjack Game 
+# Blackjack Game
 
-A simple command-line Blackjack game built using Python.
+A command-line Blackjack game built in Python.
 
 ## Features
 - Random card dealing
-- Hit or stand gameplay
-- Score tracking
+- Ace value adjustment (11 → 1)
+- Dealer logic (hits until 17)
+- Blackjack detection
+- Replayable game loop
 
-## Technologies
-- Python
-- random module
+## Files
+main.py   → game logic  
+art.py    → ASCII logo displayed at start
 
-## Run the game
-python main.py
+## How to Run
+
+1. Clone the repository
+
+  git clone https://github.com/YOURUSERNAME/blackjack-python.git
+
+2. Navigate into the project
+
+   cd blackjack-python
+
+3. Run the game
+
+  python main.py
