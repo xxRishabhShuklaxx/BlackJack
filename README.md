@@ -1,6 +1,15 @@
-# Blackjack 
+# Blackjack Game 
 
-This is a Command-line Blackjack game built in Python.
+A simple command-line Blackjack game built using Python.
 
-## How to run
+## Features
+- Random card dealing
+- Hit or stand gameplay
+- Score tracking
+
+## Technologies
+- Python
+- random module
+
+## Run the game
 python main.py
